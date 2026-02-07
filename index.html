@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="heading">
+    <h1>Check Your City Temperature</h1>
+  </div>
+  <div class="content">
+    
+    <h3>Live Weather Updates:</h3>
+    <div class="inp">
+      <input class="input form-control" type="text" placeholder="Enter Your Place">
+    </div>
+    <div class="search">
+      <button type="button" class="btn btn-secondary">Search</button>
+    </div>
+    <div class="result">
+      <p class="Temperature"></p>
+      <p class="feelsLike"></p>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.10.0/axios.min.js" integrity="sha512-WkZrEcQ5LMyNy6Y2PQf+Tu3vMcsmKKRKuPXtJSTHQJ3mpuvLRlA5dlDDhrrcXfyWr6Z/y3wIMfjfqVFO/gDZYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+</body>
+</html>
