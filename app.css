@@ -142,11 +142,11 @@ body {
 
 /* Icons for result */
 .Temperature::after {
-  content: "🔥";
+  content: "🌡️ ";
 }
 
 .feelsLike::after {
-  content: "🥵";
+  content: "🌬️";
 }
 
 /* RESPONSIVE */
