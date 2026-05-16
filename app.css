@@ -141,12 +141,12 @@ body {
 }
 
 /* Icons for result */
-.Temperature::before {
-  content: "🌡️ ";
+.Temperature::after {
+  content: "🔥";
 }
 
-.feelsLike::before {
-  content: "😊 ";
+.feelsLike::after {
+  content: "🥵";
 }
 
 /* RESPONSIVE */
